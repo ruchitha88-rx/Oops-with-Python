@@ -1,15 +1,12 @@
-class Sample:
-    def __init__(self, name, age):
-        self.name = name
-        self.age = age
-
-    def read(self):
-        print(self.name)
-        print(self.age)
+class Bird:
+    def eat(self):
+        print("bird eat food"):
 
 
-s1 = Sample("kprit", 20)
-s1.read()
+class sparrow(Bird):
+      def fly(self):
+         print("sparrow fly")
 
-s2 = Sample("abc", 21)
-s2.read()
+d1 = sparrow()
+d1.eat()
+d1.fly()
