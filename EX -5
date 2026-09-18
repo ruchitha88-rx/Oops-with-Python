@@ -1,0 +1,11 @@
+class student:
+   name="RUCHITHA"
+   rollno="F5"
+   dept="AIML-C"
+   marks=75
+   
+s=student()
+print("name:",s.name)
+print("rollno:",s.rollno)
+print("dept:",s.dept)
+print("marks:",s.marks)
