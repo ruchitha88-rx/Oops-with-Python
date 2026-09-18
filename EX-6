@@ -1,0 +1,25 @@
+class BankAccount:
+  Holdername ="ruchitha"
+  acc_no = 34556
+  balance = 10000
+
+  def deposite(self):
+     money = int(input("Enter the money: "))
+     money = money +self.balance 
+     print(money)
+
+  def withdrawal(self):
+     cash = int(input("Enter cash: "))   
+     print("cash")
+
+  def display_balance(self):
+     print(self.balance)
+
+PNB= BankAccount()
+
+
+PNB.deposite()
+
+PNB.withdrawal()
+
+PNB.display_balance()
