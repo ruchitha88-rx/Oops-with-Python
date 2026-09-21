@@ -1,0 +1,37 @@
+class Parent:
+    def shape(self):
+        print("shapes")
+
+
+class Child1(Parent):
+    area="3.14*r*r"
+
+    def circle(self):
+        print("circle")
+        print("area :", self.area)
+        
+
+
+class Child2(Parent):
+    area="lenght*breath"
+    
+    def rectangel(self):
+        print("rectangel")
+        print("area:", self.area)
+        
+
+
+class Child3(Parent):
+    area="0.5*base*height"
+    
+    def triangle(self):
+        print("triangle")
+        print("area:", self.area)
+        
+c1 = Child1()
+c2 = Child2()
+c3 = Child3()
+
+c1.circle()
+c2.rectangel()
+c3.triangle()
